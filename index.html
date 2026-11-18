@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>AP-Star — Drop 01</title>
+    <meta name="description" content="AP-Star. Cut and sewn in-house. Join the waitlist for Drop 01." />
+    <meta name="theme-color" content="#0b0b0b" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;700&display=swap"
+    />
+    <style>
+      /* critical CSS so the star shows in the first paint, before any JS */
+      html, body { margin: 0; background: #0b0b0b; color: #e9e6df; }
+      #preloader { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: #0b0b0b; }
+      #preloader.skip { display: none; }
+      #pl-star { width: 96px; height: 96px; overflow: visible; }
+      #pl-star .pl-outline { fill: none; stroke: #e9e6df; stroke-width: 1.5; stroke-dasharray: 1; stroke-dashoffset: 1; vector-effect: non-scaling-stroke; }
+      #pl-star .pl-fill { fill: #FF5A1F; transform-origin: 50px 50px; transform: scale(0); }
+      #pl-star .pl-stitches line { stroke: #FF5A1F; stroke-width: 1.6; stroke-linecap: round; opacity: 0; }
+      #preloader .pl-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    </style>
+    <script>
+      try { if (sessionStorage.getItem('ap-seen') && !/[?&]preload/.test(location.search)) document.documentElement.classList.add('ap-skip-preload') } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="preloader" role="status" aria-live="polite">
+      <svg id="pl-star" viewBox="0 0 100 100" aria-hidden="true">
+        <path class="pl-fill" d="M50 2 C53 38 62 47 98 50 C62 53 53 62 50 98 C47 62 38 53 2 50 C38 47 47 38 50 2 Z" />
+        <path class="pl-outline" pathLength="1" d="M50 2 C53 38 62 47 98 50 C62 53 53 62 50 98 C47 62 38 53 2 50 C38 47 47 38 50 2 Z" />
+        <path class="pl-stitch-path" fill="none" stroke="none" d="M50 16 C52.2 42 58 47.8 84 50 C58 52.2 52.2 58 50 84 C47.8 58 42 52.2 16 50 C42 47.8 47.8 42 50 16 Z" />
+        <g class="pl-stitches"></g>
+      </svg>
+      <span class="pl-sr">Loading AP-Star</span>
+    </div>
+    <script>
+      if (document.documentElement.classList.contains('ap-skip-preload')) document.getElementById('preloader').classList.add('skip')
+    </script>
+    <div id="root"></div>
+    <noscript><p style="padding:24px;font-family:sans-serif">AP-Star — Cut &amp; sewn in-house. This site needs JavaScript for the factory tour.</p></noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

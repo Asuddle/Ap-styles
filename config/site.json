@@ -1,0 +1,744 @@
+{
+  "brand": {
+    "name": "AP-Star",
+    "accent": "#FF5A1F",
+    "fonts": {
+      "display": "Archivo",
+      "mono": "JetBrains Mono"
+    },
+    "social": {
+      "instagram": "",
+      "tiktok": ""
+    },
+    "studio": ""
+  },
+  "drop": {
+    "name": "Drop 01",
+    "date": "",
+    "waitlist": {
+      "sms": true,
+      "email": true
+    }
+  },
+  "hero": {
+    "garment": "heavyweight-hoodie",
+    "patternPieces": "",
+    "cutOrder": [
+      "front",
+      "back",
+      "sleeve-l",
+      "sleeve-r",
+      "hood",
+      "pocket"
+    ],
+    "copy": {
+      "headline": [
+        "Cut & sewn",
+        "in-house."
+      ],
+      "subline": "Years of making clothes for other labels. Now our own name is on them."
+    }
+  },
+  "manifesto": {
+    "text": "For years, our floor has cut and sewn clothes that carried other labels' names. Same machines, same hands, same standards. This is the first time we've stitched our own name in.",
+    "keyPhrase": "our own name"
+  },
+  "sewing": {
+    "seams": [
+      {
+        "id": "shoulders",
+        "label": "SHOULDER SEAM — 4-THREAD OVERLOCK"
+      },
+      {
+        "id": "sides",
+        "label": "SIDE SEAM"
+      },
+      {
+        "id": "sleeves",
+        "label": "SLEEVE SEAM"
+      },
+      {
+        "id": "hood",
+        "label": "HOOD"
+      },
+      {
+        "id": "cuffs",
+        "label": "RIB CUFF"
+      }
+    ]
+  },
+  "finale": {
+    "line": "Be first in line when Drop 01 opens.",
+    "consent": "By joining, you agree to receive texts and emails about AP-Star drops. Msg & data rates may apply. Reply STOP to opt out. [PLACEHOLDER: final legal copy]"
+  },
+  "garments": [
+    {
+      "slug": "heavyweight-hoodie",
+      "name": "Heavyweight Hoodie",
+      "shopifyHandle": "",
+      "layer": "top",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Concrete",
+          "hex": "#8a8986"
+        },
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "name": "Safety",
+          "hex": "#FF5A1F"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "cargo-pant",
+        "track-pant",
+        "coach-jacket"
+      ],
+      "fitNotes": {
+        "puffer": "Too heavy to layer"
+      }
+    },
+    {
+      "slug": "boxy-tee",
+      "name": "Boxy Tee",
+      "shopifyHandle": "",
+      "layer": "top",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Bone",
+          "hex": "#d9d4c7"
+        },
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "cargo-pant",
+        "track-pant",
+        "coach-jacket",
+        "puffer"
+      ],
+      "fitNotes": {}
+    },
+    {
+      "slug": "cargo-pant",
+      "name": "Cargo Pant",
+      "shopifyHandle": "",
+      "layer": "bottom",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Olive",
+          "hex": "#4b4f3a"
+        },
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "heavyweight-hoodie",
+        "boxy-tee",
+        "coach-jacket",
+        "puffer"
+      ],
+      "fitNotes": {}
+    },
+    {
+      "slug": "track-pant",
+      "name": "Track Pant",
+      "shopifyHandle": "",
+      "layer": "bottom",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "name": "Concrete",
+          "hex": "#8a8986"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "heavyweight-hoodie",
+        "boxy-tee",
+        "coach-jacket",
+        "puffer"
+      ],
+      "fitNotes": {}
+    },
+    {
+      "slug": "coach-jacket",
+      "name": "Coach Jacket",
+      "shopifyHandle": "",
+      "layer": "outer",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "name": "Safety",
+          "hex": "#FF5A1F"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "heavyweight-hoodie",
+        "boxy-tee",
+        "cargo-pant",
+        "track-pant"
+      ],
+      "fitNotes": {}
+    },
+    {
+      "slug": "puffer",
+      "name": "Puffer",
+      "shopifyHandle": "",
+      "layer": "outer",
+      "glb": "",
+      "price": null,
+      "colourways": [
+        {
+          "name": "Black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "name": "Concrete",
+          "hex": "#8a8986"
+        }
+      ],
+      "fabric": {
+        "gsm": null,
+        "composition": "",
+        "fit": ""
+      },
+      "fitsWith": [
+        "boxy-tee",
+        "cargo-pant",
+        "track-pant"
+      ],
+      "fitNotes": {
+        "heavyweight-hoodie": "Too heavy to layer"
+      }
+    }
+  ],
+  "fitting": {
+    "default": {
+      "top": "heavyweight-hoodie",
+      "bottom": "cargo-pant",
+      "outer": null
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  "factory": {
+    "years": null,
+    "floorSqFt": null,
+    "machines": null
+  },
+  "timings": {
+    "desktop": {
+      "hero": 160,
+      "manifesto": 100,
+      "sewing": 160,
+      "dropIntro": 40,
+      "dropBeat": 60,
+      "fitting": 150,
+      "finale": 200
+    },
+    "mobile": {
+      "hero": 140,
+      "manifesto": 90,
+      "sewing": 140,
+      "dropIntro": 30,
+      "dropBeat": 50,
+      "fitting": 140,
+      "finale": 180
+    },
+    "scrub": 0.6,
+    "preloader": {
+      "min": 1.2,
+      "max": 2.5,
+      "timeout": 3.5
+    }
+  },
+  "world": {
+    "table": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        3.2,
+        0.9,
+        1.6
+      ]
+    },
+    "hangCenter": [
+      0,
+      1.75,
+      0
+    ],
+    "dropRoom": {
+      "origin": [
+        0,
+        0,
+        -14
+      ],
+      "spacing": 3.2,
+      "garmentY": 1.5
+    },
+    "fittingRoom": {
+      "offsetFromLast": 6
+    }
+  },
+  "camera": {
+    "hero": {
+      "landscape": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            0.9,
+            0
+          ],
+          "radius": 4.4,
+          "polar": 0.001,
+          "azimuth": 0,
+          "fov": 25
+        },
+        {
+          "at": 0.375,
+          "target": [
+            0,
+            0.9,
+            0
+          ],
+          "radius": 4.4,
+          "polar": 0.001,
+          "azimuth": 0,
+          "fov": 25
+        },
+        {
+          "at": 0.875,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.2,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 40
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.2,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 40
+        }
+      ],
+      "portrait": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            0.9,
+            0
+          ],
+          "radius": 6.4,
+          "polar": 0.001,
+          "azimuth": 1.5708,
+          "fov": 25
+        },
+        {
+          "at": 0.375,
+          "target": [
+            0,
+            0.9,
+            0
+          ],
+          "radius": 6.4,
+          "polar": 0.001,
+          "azimuth": 1.5708,
+          "fov": 25
+        },
+        {
+          "at": 0.875,
+          "target": [
+            0,
+            1.85,
+            0
+          ],
+          "radius": 5.6,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 44
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.85,
+            0
+          ],
+          "radius": 5.6,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 44
+        }
+      ]
+    },
+    "manifesto": {
+      "landscape": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.2,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 40
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.0,
+          "polar": 1.25,
+          "azimuth": 0.3,
+          "fov": 40
+        }
+      ],
+      "portrait": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            1.85,
+            0
+          ],
+          "radius": 5.6,
+          "polar": 1.2,
+          "azimuth": 0.45,
+          "fov": 44
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.85,
+            0
+          ],
+          "radius": 5.4,
+          "polar": 1.25,
+          "azimuth": 0.3,
+          "fov": 44
+        }
+      ]
+    },
+    "sewing": {
+      "landscape": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.0,
+          "polar": 1.25,
+          "azimuth": 0.3,
+          "fov": 40
+        },
+        {
+          "at": 0.25,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 3.4,
+          "polar": 1.35,
+          "azimuth": 0.2,
+          "fov": 38,
+          "ease": "ap.cut"
+        },
+        {
+          "at": 0.8,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 3.4,
+          "polar": 1.35,
+          "azimuth": -0.2,
+          "fov": 38
+        },
+        {
+          "at": 0.85,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 3.4,
+          "polar": 1.35,
+          "azimuth": -0.2,
+          "fov": 38
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 3.4,
+          "polar": 1.4,
+          "azimuth": 1.894,
+          "fov": 38,
+          "ease": "ap.cut"
+        }
+      ],
+      "portrait": [
+        {
+          "at": 0,
+          "target": [
+            0,
+            1.85,
+            0
+          ],
+          "radius": 5.4,
+          "polar": 1.25,
+          "azimuth": 0.3,
+          "fov": 44
+        },
+        {
+          "at": 0.25,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.8,
+          "polar": 1.35,
+          "azimuth": 0.2,
+          "fov": 44,
+          "ease": "ap.cut"
+        },
+        {
+          "at": 0.8,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.8,
+          "polar": 1.35,
+          "azimuth": -0.2,
+          "fov": 44
+        },
+        {
+          "at": 0.85,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.8,
+          "polar": 1.35,
+          "azimuth": -0.2,
+          "fov": 44
+        },
+        {
+          "at": 1,
+          "target": [
+            0,
+            1.7,
+            0
+          ],
+          "radius": 4.8,
+          "polar": 1.4,
+          "azimuth": 1.894,
+          "fov": 44,
+          "ease": "ap.cut"
+        }
+      ]
+    },
+    "drop": {
+      "landscape": {
+        "radius": 4.2,
+        "polar": 1.42,
+        "azimuth": 0,
+        "fov": 34,
+        "offsetX": -0.9
+      },
+      "portrait": {
+        "radius": 6.0,
+        "polar": 1.38,
+        "azimuth": 0,
+        "fov": 40,
+        "offsetX": 0,
+        "offsetY": -0.5
+      },
+      "inspect": {
+        "radius": 2.2,
+        "polar": 1.45,
+        "fov": 32,
+        "offsetX": 0.6
+      },
+      "inspectPortrait": {
+        "radius": 3.2,
+        "polar": 1.42,
+        "fov": 40,
+        "offsetX": 0,
+        "offsetY": -0.6
+      },
+      "fabric": {
+        "radius": 0.7,
+        "polar": 1.5,
+        "fov": 22,
+        "offsetY": 0.15
+      }
+    },
+    "fitting": {
+      "landscape": {
+        "radius": 5.0,
+        "polar": 1.42,
+        "azimuth": 0,
+        "fov": 34,
+        "targetY": 1.25
+      },
+      "portrait": {
+        "radius": 6.6,
+        "polar": 1.42,
+        "azimuth": 0,
+        "fov": 42,
+        "targetY": 1.05
+      }
+    },
+    "finale": {
+      "landscape": [
+        {
+          "at": 0,
+          "pull": 0,
+          "fov": 34
+        },
+        {
+          "at": 0.3,
+          "pull": 0,
+          "fov": 34
+        },
+        {
+          "at": 0.6,
+          "pull": 1,
+          "fov": 30,
+          "ease": "ap.cut"
+        },
+        {
+          "at": 1,
+          "pull": 1,
+          "fov": 30
+        }
+      ],
+      "portrait": [
+        {
+          "at": 0,
+          "pull": 0,
+          "fov": 42
+        },
+        {
+          "at": 0.3,
+          "pull": 0,
+          "fov": 42
+        },
+        {
+          "at": 0.6,
+          "pull": 1,
+          "fov": 40,
+          "ease": "ap.cut"
+        },
+        {
+          "at": 1,
+          "pull": 1,
+          "fov": 40
+        }
+      ]
+    },
+    "finaleEnd": {
+      "landscape": {
+        "radius": 7,
+        "polar": 1.5,
+        "targetDrop": 1.3
+      },
+      "portrait": {
+        "radius": 9,
+        "polar": 1.5,
+        "targetDrop": 1.5
+      },
+      "star": {
+        "offsetX": 3,
+        "y": 1.9,
+        "scale": 0.009
+      }
+    }
+  }
+}
